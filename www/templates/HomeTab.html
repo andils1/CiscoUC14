@@ -1,0 +1,20 @@
+<ion-view title="Possible journeys ">
+    <ion-content padding="true" class="has-header" ng-controller="MyCtrl">
+
+        <div class="card" ng-repeat="journey in journeys.journeys">
+            <div ng-click="doSomething()" class="item item-text-wrap centerText">
+                {{journey.start}} - {{journey.destination}}
+                <br> </br>
+                <div class="timeSize4"> {{journey.time}} - {{journey.arrivalTime}}</div>
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a ng-click="showFeedback()" class="tab-item">
+                    <i class="icon ion-pie-graph text-black"></i>
+                </a>
+            </div>
+
+        </div>
+    </ion-content>
+
+</ion-view>

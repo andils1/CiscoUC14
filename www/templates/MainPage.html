@@ -1,0 +1,41 @@
+
+<ion-view class="background" title="EasyTravel">
+
+    <div class="center myItem-width">
+        <div class="titleImage"></div>
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Leaving from">
+            </label>
+
+           <br>
+
+            <label class="item item-input">
+                <input type="text" placeholder="Destination">
+            </label>
+            <br>
+
+            <div class="centerText">
+                <select ng-model="clientSide" ng-controller="MyCtrl" class="comboBox">
+                    <option value="" disabled selected>Depart after</option>
+                    <option ng-repeat="hour in hours" ng-value="hour.value">
+                        {{hour}}
+                    </option>
+                </select>
+                <select ng-model="clientSide" ng-controller="MyCtrl" class="comboBox">
+                    <option value="" disabled selected>Arrive by</option>
+                    <option ng-repeat="hour in hours" ng-value="hour.value">
+                        {{hour}}
+                    </option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+    <ion-footer-bar>
+        <button ng-click="goToSecond()" class="button button-positive myButton-width">
+            Book now
+        </button>
+    </ion-footer-bar>
+
+</ion-view>

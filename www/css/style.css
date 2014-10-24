@@ -1,0 +1,106 @@
+/* Empty. Add your own CSS if you like */
+
+.titleImage {
+    width: 230px;
+    height: 230px;
+    background: url("../pics/cacat.png") no-repeat;
+    background-size: contain;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mySimpleButton {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+}
+
+.mySimpleSmallerButton {
+    width: 10px;
+    height: 13px;
+    margin: 1px;
+}
+
+.background {
+    background-color: #ffffff;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.timeSize4 {
+    font-size: 40px;
+}
+
+.timeSize3 {
+    font-size: 30px;
+}
+
+.timeSize2 {
+    font-size: 25px;
+}
+
+.timeSize1 {
+    font-size: 22px;
+}
+
+.timeSize0 {
+    font-size: 20px;
+}
+
+.overallFeedback {
+    font-size: 17px;
+}
+
+.comboBox {
+    width: 49%;
+    height: 30px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: -240px;
+}
+
+.myItem-width {
+    width: 90%;
+}
+
+.myButton-width {
+    width: 100%;
+    margin-top: -18px;
+    height: 50px;
+}
+
+.myCheckSeatsButton {
+    width: 100%;
+    height: 50px;
+}
+
+.centerTrain {
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+}
+
+.centerButton {
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: #7cfc00;
+}
+
+.orange {
+    background-color: #FFA500;
+}

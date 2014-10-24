@@ -1,0 +1,40 @@
+<ion-view title="Journey information" xmlns="http://www.w3.org/1999/html">
+    <ion-content padding="true" class="has-header">
+
+        <div class="card">
+            <div class="item item-text-wrap text-center">
+                {{journey.start}} - {{journey.destination}}
+                <br> <br>
+                <div class="timeSize4 text-center"> {{journey.time}} - {{journey.arrivalTime}}</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-text-wrap">
+                <div class="timeSize3"> Platform {{journey.platform}}</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-text-wrap">
+                <div class="overallFeedback gray"> Change at: <br><br><div class="timeSize3">{{journey.changeCity}} {{journey.changeTime}}</div></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                <div class="timeSize3">{{journey.pcOfDisruption}}% chance of disruption</div>
+            </div>
+        </div>
+        <div class="centerButton">
+            <button ng-click="showFeedback()" class="button button-balanced">
+                More details
+            </button>
+        </div>
+    </ion-content>
+
+    <ion-footer-bar>
+        <button ng-click="selectSeats()" class="button button-positive myButton-width">
+            Select seats
+        </button>
+    </ion-footer-bar>
+
+</ion-view>

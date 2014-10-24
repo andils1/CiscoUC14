@@ -1,0 +1,76 @@
+{
+    "journeys":[
+        {
+            "start":"Southampton",
+            "destination":"Feltham",
+            "time":"08:30",
+            "changeCity":"Reading",
+            "changeTime" : "08:55",
+            "pcOfDisruption" : "7",
+            "platform" : "2",
+            "arrivalTime" : "9:20"
+        },
+        {
+            "start":"London Station",
+            "destination":"Oxford",
+            "time":"9:20",
+            "changeCity":"Brighton",
+            "changeTime" : "11:45",
+            "pcOfDisruption" : "10",
+            "platform" : "5",
+            "arrivalTime" : "13:20"
+        },
+        {
+            "start":"London Station",
+            "destination":"Reading",
+            "time":"12:55",
+            "changeCity":"No changes",
+            "changeTime" : "",
+            "pcOfDisruption" : "2",
+            "platform" : "8",
+            "arrivalTime" : "15:00"
+        },
+        {
+            "start":"Birmingham",
+            "destination":"York",
+            "time":"17:50",
+            "changeCity":"Plymouth",
+            "changeTime" : "11:12",
+            "pcOfDisruption" : "5",
+            "platform" : "5",
+            "arrivalTime" : "18:05"
+        }
+        ,
+        {
+            "start":"Porthsmouth",
+            "destination":"York",
+            "time":"18:50",
+            "changeCity":"No change",
+            "changeTime" : "",
+            "pcOfDisruption" : "5",
+            "platform" : "5",
+            "arrivalTime" : "19:15"
+        }
+        ,
+        {
+            "start":"York",
+            "destination":"Glasgow",
+            "time":"19:00",
+            "changeCity":"Plymouth",
+            "changeTime" : "11:12",
+            "pcOfDisruption" : "5",
+            "platform" : "5",
+            "arrivalTime" : "19:25"
+        }
+        ,
+        {
+            "start":"Birmingham",
+            "destination":"York",
+            "time":"19:15",
+            "changeCity":"Brighton",
+            "changeTime" : "11:12",
+            "pcOfDisruption" : "5",
+            "platform" : "5",
+            "arrivalTime" : "19:45"
+        }
+    ]}
